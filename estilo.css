@@ -1,0 +1,14 @@
+/* Páginas do robô de postagem (exigência do Google para a permissão do YouTube não vencer). Só texto. */
+@font-face { font-family: "Anton"; font-weight: 400; font-display: swap; src: url("fontes/anton-latin.woff2") format("woff2"); }
+@font-face { font-family: "Montserrat"; font-weight: 100 900; font-display: swap; src: url("fontes/montserrat-latin.woff2") format("woff2"); }
+:root { color-scheme: dark; --fundo: #0d0518; --rosa: #ff2e88; --texto: #fff6fb; --suave: rgba(255, 246, 251, 0.75); --linha: rgba(255, 255, 255, 0.14); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fundo); color: var(--texto); font: 400 17px/1.65 "Montserrat", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+h1 { font: 400 clamp(32px, 7vw, 48px)/1.1 "Anton", sans-serif; letter-spacing: 0.01em; margin: 0 0 8px; }
+h2 { font-size: 19px; margin: 32px 0 6px; color: var(--rosa); }
+p, li { color: var(--suave); }
+a { color: var(--rosa); overflow-wrap: anywhere; }
+.data { font-size: 14px; margin: 0 0 28px; }
+nav { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--linha); font-size: 15px; }
+nav a { margin-right: 18px; }
